@@ -1,0 +1,22 @@
+{
+  "name": "constructorhangman",
+  "version": "1.0.0",
+  "description": "A Hangman game that runs in node and utilizes constructors to enable game functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castellanorob/ConstructorHangman.git"
+  },
+  "author": "Rob Castellano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castellanorob/ConstructorHangman/issues"
+  },
+  "homepage": "https://github.com/castellanorob/ConstructorHangman#readme",
+  "dependencies": {
+    "inquirer": "^5.1.0"
+  }
+}
