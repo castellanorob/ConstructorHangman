@@ -15,11 +15,15 @@ function Letter() {
         }
     };
     // A function that takes a character as an argument and checks it against the underlying character, 
-    // updating the stored boolean value to true if it was guessed correctly
+    // updating the stored boolean value to true if it was guessed correctly 
     this.guessChar = function() {
-        if (this.char === )
+        if (this.char === this.guessed) {
+            this.guessed = true
+        }
     }
 };
+
+console.log(this.char);
 
 module.exports = Letter
 
