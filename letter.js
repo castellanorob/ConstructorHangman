@@ -18,14 +18,10 @@ function Letter() {
     // updating the stored boolean value to true if it was guessed correctly 
     this.guessChar = function() {
         if (this.char === this.guessed) {
-            this.guessed = true
+            this.guessed = true;
         }
     }
 };
 
-console.log(this.char);
 
 module.exports = Letter
-
-
-
